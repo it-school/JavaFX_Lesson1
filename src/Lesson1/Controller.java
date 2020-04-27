@@ -38,6 +38,5 @@ public class Controller {
         {
             lblPersonInfo.setText("Error while data conversion: " + ex.getLocalizedMessage());
         }
-
     }
 }
