@@ -3,11 +3,15 @@ package Lesson1;
 import Lesson1.Model.Person;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
 
-public class Controller {
+public class Controller
+{
+    @FXML
+    public Button btnCreate;
     @FXML
     TextField txtName;
     @FXML
